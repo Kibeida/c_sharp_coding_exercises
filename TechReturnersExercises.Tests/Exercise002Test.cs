@@ -1,6 +1,7 @@
 using Xunit;
 using TechReturners.Exercises;
 
+
 namespace TechReturners.Tests
 {
     public class Exercise002Test
@@ -14,7 +15,7 @@ namespace TechReturners.Tests
             Assert.False(Exercise002.IsFromManchester(p2));
         }
 
-        [Fact]
+       [Fact]
         public void CheckCanWatchFilm()
         {
             Person p1 = new Person("Peter", "Smith", "Manchester", 17);
@@ -24,3 +25,4 @@ namespace TechReturners.Tests
         }
     }
 }
+ 

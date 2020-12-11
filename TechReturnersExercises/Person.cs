@@ -1,5 +1,5 @@
 ﻿using System;
-namespace TechReturnersExercises
+namespace TechReturners.Exercises
 {
     public class Person
     {
