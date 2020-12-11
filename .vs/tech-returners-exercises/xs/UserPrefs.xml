@@ -9,10 +9,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="tech-returners-exercises" expanded="True">
-            <Node name="TechReturnersExercises" expanded="True">
-              <Node name="Exercise002.cs" selected="True" />
-            </Node>
-            <Node name="TechReturnersExercises.Tests" expanded="True" />
+            <Node name="TechReturnersExercises" expanded="True" />
+            <Node name="TechReturnersExercises.Tests" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
