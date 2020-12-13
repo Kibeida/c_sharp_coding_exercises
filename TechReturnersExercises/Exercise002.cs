@@ -7,25 +7,19 @@ namespace TechReturners.Exercises
     {
         public static bool IsFromManchester(Person person) 
         {
-            
-            if(person.City == "Manchester") {
-                return true;
-            }  else
-            {
-                return false;
-            }
+
+            bool result = person.City == "Manchester" ? true : false;
+
+            return result;
         }
         
 
         public static bool CanWatchFilm(Person person, int ageLimit) 
         {
-            
-            if(person.Age >= ageLimit) {
-                return true;
-            }  else
-            {
-                return false;
-            }
+
+            bool result = person.Age >= ageLimit ? true : false;
+
+            return result;
         }
     }
 }
