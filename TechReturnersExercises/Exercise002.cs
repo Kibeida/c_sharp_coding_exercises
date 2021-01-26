@@ -5,16 +5,19 @@ namespace TechReturners.Exercises
 {
     public class Exercise002
     {
-        public static bool IsFromManchester(Person person) 
+        public static bool IsFromManchester(Person person)
         {
-
-            bool result = person.City == "Manchester" ? true : false;
-
-            return result;
+            return person.City == "Manchester";
         }
-        
+        // {
 
-        public static bool CanWatchFilm(Person person, int ageLimit) 
+        //     bool result = person.City == "Manchester" ? true : false;
+
+        //     return result;
+        // }
+
+
+        public static bool CanWatchFilm(Person person, int ageLimit)
         {
 
             bool result = person.Age >= ageLimit ? true : false;
